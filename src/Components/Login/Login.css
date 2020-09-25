@@ -1,0 +1,125 @@
+
+
+.empty{
+    height: 171px;
+}
+
+.login__form{
+    width: 570px;
+    height: 457px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+}
+.login__form h2{
+    margin-top: 37.03px;
+    margin-left: 55px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 29px;
+}
+.login__inputs{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login__rememberMe__forgotPassword{
+    display: flex;
+    margin-top: 24px;
+}
+.login__forgotPassword{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: 54px;
+    color: #F9A51A;
+    text-decoration: underline;
+    transition: 0.1s ease-in-out;
+}
+.login__forgotPassword:hover{
+    cursor: pointer;
+    font-size: 17px;
+}
+.login__rememberMe{
+    margin-left: 54px;
+}
+.login__btn{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login__btn button{
+    background: #F9A51A;
+    border: none;
+    width: 461px;
+    height: 50px;
+    margin-top: 52px;
+    transition: 0.2s;
+}
+.login__btn button:hover{
+    background: #d88500;
+}
+.login__dontHaveAccount{
+    text-align: center;
+    margin-top: 35px;
+}
+.login__createAccount{
+    color: #F9A51A;
+    text-decoration: underline;
+}
+.login__createAccount:hover{
+    cursor: pointer;
+}
+.login__facebook{
+    width: 461px;
+    height: 51px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+}
+.login__google{
+    width: 461px;
+    height: 51px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+}
+.login__facebook:hover{
+    cursor: pointer;
+}
+.login__google:hover{
+    cursor: pointer;
+}
+.login__facebook p{
+    user-select: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.login__google p{
+    user-select: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 15px;
+
+}
+.empty2{
+    height: 93px;
+}

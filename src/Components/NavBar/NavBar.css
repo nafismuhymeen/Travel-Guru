@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    font-family: 'Montserrat', sans-serif;
+    height: 126px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+    
+}
+.navBar__logoWhite{
+    width: 120px;
+    height: 56px;
+    margin-left: auto;
+    margin-top: 35px;
+    filter: brightness(800%);
+}
+.navBar__logoBlack{
+    width: 120px;
+    height: 56px;
+    margin-left: auto;
+    margin-top: 35px;
+}
+.navBar__logoBlack:hover{
+    cursor: pointer;
+}
+.navBar__logoWhite:hover{
+    cursor: pointer;
+}
+.navBar__searchBarBlack{ 
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    width: 370px;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 39px;
+    margin-left: 79.74px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;   
+    outline: none;
+}
+.navBar__searchBarWhite{ 
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 370px;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 39px;
+    margin-left: 79.74px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+}
+.navBar__searchBarWhite::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.navBar__searchBarBlack::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.navBar__menuWhite{
+    margin-left: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navBar__menuBlack{
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navBar p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navBar button{
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.searchBar{
+    position: relative;
+}
+.searchIconWhite{
+    position: absolute; 
+    left: 90px; 
+    top: 55px;
+    color: white;
+}
+.searchIconBlack{
+    position: absolute; 
+    left: 90px; 
+    top: 55px;
+    color: rgb(0, 0, 0);
+}

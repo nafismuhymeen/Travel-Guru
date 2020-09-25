@@ -1,0 +1,98 @@
+.signUp__emptyTop{
+    height: 130px;
+}
+.signUp__form{
+    width: 570px;
+    height: 591px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ABABAB;
+    border-radius: 4px;
+}
+.signUp__form h2{
+    margin-top: 37.03px;
+    margin-left: 55px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 29px;
+}
+.signUp__inputs{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signUp__btn{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signUp__btn button{
+    background: #F9A51A;
+    border: none;
+    width: 461px;
+    height: 50px;
+    margin-top: 52px;
+    transition: 0.2s;
+}
+.signUp__btn button:hover{
+    background: #d88500;
+}
+.signUp__alreadyHaveAccount{
+    text-align: center;
+    margin-top: 35px;
+}
+.signUp__login{
+    color: #F9A51A;
+    text-decoration: underline;
+}
+.signUp__login:hover{
+    cursor: pointer;
+}
+.signUp__facebook{
+    width: 461px;
+    height: 51px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+}
+.signUp__google{
+    width: 461px;
+    height: 51px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+}
+.signUp__facebook:hover{
+    cursor: pointer;
+}
+.signUp__google:hover{
+    cursor: pointer;
+}
+.signUp__facebook p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.signUp__google p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 15px;
+
+}
+.signUp__emptyBottom{
+    height: 93px;
+}

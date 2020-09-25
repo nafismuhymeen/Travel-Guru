@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hotels{
+    margin-left: 135px;
+}
+.hotels h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+.hotels__details{
+    display: flex;
+    margin-top: 31px;
+    
+}
+.hotels__details__details{
+    width: 313.02px;
+    margin-left: 31px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

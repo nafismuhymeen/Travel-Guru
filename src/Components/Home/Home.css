@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Rectangle\ 1.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+.home__carousel{
+   width: 100%;
+   margin-top: 150px;
+   margin-bottom: 75px;
+}
+.carousel__card{
+    height: 400px;
+    width: 100%;
+   
+}
+.slider{
+    display: flex;
+}
+
+.slider__img{
+    border: 4px solid #FBBC04;
+    border-radius: 25px;
+    height: 400px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: 135px;
+}
+.slider__img img{
+    height: 100%;
+}
+.slider__details{
+    width: 455px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 135px;
+    color: white;
+}
+.slider__details h1{
+    font-family: 'Bebas Neue';
+    font-size: 97.6842px;
+    line-height: 117px;
+}
+.slider__details p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
